@@ -7,16 +7,17 @@ import WorkIcon from '@mui/icons-material/Work';
 function Experience(){
     return (
     <div className='experience'>
-        <VerticalTimeline lineColor="#3e497a">
+        <VerticalTimeline lineColor="#000">
             <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
                 date="Aug 2021-May 2024"
-                iconStyle={{background: '#3e497a', color: "#fff"}}
+                iconStyle={{background: '#7BAFD4', color: "#fff"}}
                 icon={<SchoolIcon/>}>
                 <h3 className="vertical-timeline-element-title">
                     University of North Carolina - Chapel Hill
                 </h3>
                 <p>Bachelor's Degree in <b>Computer Science (BS)</b> and <b>Statistics (BS)</b></p>
+                <p>I double majored and completed my degree one year early. Ask me about my experience adding on the Statistics second major and my experiences at Chapel Hill.</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -26,6 +27,7 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Full Stack Developer Intern - Sustainible
                     </h3>
+                    <p>Former startup, now inactive</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -75,7 +77,7 @@ function Experience(){
             <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
                 date="Sep 2024-Present"
-                iconStyle={{background: '#3e497a', color: "#fff"}}
+                iconStyle={{background: '#7BAFD4', color: "#fff"}}
                 icon={<SchoolIcon/>}>
                 <h3 className="vertical-timeline-element-title">
                     Columbia University
