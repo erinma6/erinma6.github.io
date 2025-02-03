@@ -28,6 +28,7 @@ function Experience(){
                         Full Stack Developer Intern - Sustainible
                     </h3>
                     <p>Former startup, now inactive</p>
+                    <p>As a full stack developer at Sustainible, I was introduced to Angular, Node.js, and Firebase. I was responsible for designing the first entrepreneur survey which was published to the site.</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -37,6 +38,7 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Client Engineering & Technical Sales Intern - IBM
                     </h3>
+                    <p>As part of IBM's Accelerate program, I was accepted into the Client Engineering and Technical Sales track. This program was completed alongside my internship at Sustainible. During this time, I designed a AI chatbot for a mock bank utilizing IBM's Watson and presented this to a panel of IBM professionals. This project, along with IBM's Accelerate Summits, honed my business and communication skills.</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -46,6 +48,7 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Undergraduate Teaching Assistant - UNC CS Department
                     </h3>
+                    <p>I was a teaching assistant for four semesters at UNC's Computer Science Department. For three semesters I was a TA for COMP116 (Introduction to Scientific Programming) and for one semester I was a TA for COMP421 (Files and Databases). My work included hosting office hours, helping the professor proofread lectures and exams, and reporting student progress to the instructor. Ask me about the devastating but slightly comical exam incident and how I handled this adversity</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -55,6 +58,7 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Data Science Intern - RENCI
                     </h3>
+                    <p>The Renaissance Computing Institute (RENCI) is a research institute in collaboration with UNC, Duke, and NC State. During my time there, I worked with the ARAGORN team and supported their research through processing rare disease medical datasets and evaluating their algorithm through running TRAPI queires</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -64,6 +68,7 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Data & Analytics Reporting Intern - Advance Auto Parts
                     </h3>
+                    <p>At Advance Auto Parts I worked with the Data & Analytics team where I was exposed to the reporting and business side of data. I created the company's first data catalog as well as a PowerBI dashboard for weather data to promote user-friendly, self-service datasets </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -73,6 +78,7 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Software Engineer Intern - Infosys
                     </h3>
+                    <p>I worked with the iCETS team at Infosys where I was exposed to app development and utilizing Generative AI. I created two apps for Infosys' client (a children's museum in Charlotte). Both apps taught children the power of AI along with important fundamental concepts such as elements of storytelling and different art forms</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement 
                 className="vertical-timeline-element--education"
