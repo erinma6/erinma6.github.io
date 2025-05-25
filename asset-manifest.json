@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.74b2e00d.css",
-    "main.js": "/static/js/main.5d029522.js",
+    "main.css": "/static/css/main.23b763f3.css",
+    "main.js": "/static/js/main.9c314daa.js",
     "static/js/488.273886f3.chunk.js": "/static/js/488.273886f3.chunk.js",
+    "static/media/fraud.png": "/static/media/fraud.b6b49949504c72248372.png",
     "static/media/2560px-A-Cat.jpg": "/static/media/2560px-A-Cat.e7dd4497d450b5b0bf0a.jpg",
+    "static/media/csxl.png": "/static/media/csxl.25965172e7629d74344c.png",
+    "static/media/electricity.png": "/static/media/electricity.5804ff352bf5fbdcff59.png",
+    "static/media/retail.png": "/static/media/retail.a0838b490e19a0aebfe3.png",
+    "static/media/mentalHealth.png": "/static/media/mentalHealth.3122472d8118e2a5363d.png",
+    "static/media/flood.png": "/static/media/flood.0905cc54ba4c775a1277.png",
+    "static/media/EDAV.png": "/static/media/EDAV.63079e757af91559fea6.png",
+    "static/media/fx.jpg": "/static/media/fx.f0f133298e021ea47a58.jpg",
     "index.html": "/index.html",
-    "main.74b2e00d.css.map": "/static/css/main.74b2e00d.css.map",
-    "main.5d029522.js.map": "/static/js/main.5d029522.js.map",
+    "main.23b763f3.css.map": "/static/css/main.23b763f3.css.map",
+    "main.9c314daa.js.map": "/static/js/main.9c314daa.js.map",
     "488.273886f3.chunk.js.map": "/static/js/488.273886f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74b2e00d.css",
-    "static/js/main.5d029522.js"
+    "static/css/main.23b763f3.css",
+    "static/js/main.9c314daa.js"
   ]
 }
