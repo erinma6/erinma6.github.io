@@ -16,7 +16,7 @@ function Experience(){
                 <h3 className="vertical-timeline-element-title">
                     University of North Carolina - Chapel Hill
                 </h3>
-                <p>Bachelor's Degree in <b>Computer Science (BS)</b> and <b>Statistics (BS)</b></p>
+                <p> Bachelor's Degree in <b>Computer Science (BS)</b> and <b>Statistics (BS)</b></p>
                 <p>I double majored and completed my degree one year early. Ask me about my experience adding on the Statistics second major and my experiences at Chapel Hill.</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -89,6 +89,7 @@ function Experience(){
                     Columbia University
                 </h3>
                 <p>Master's Degree in <b>Data Science (MS)</b> </p>
+                <p>I decided to pursue a Master's degree after undergrad to expand my knowledge of the intersection between statistics and computer science, specifically within Machine Learning and AI.</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -98,6 +99,17 @@ function Experience(){
                     <h3 className="vertical-timeline-element-title">
                         Research Assistant - Columbia Business School
                     </h3>
+                    <p>I am working on the Quantitative Intuition (QI) project with Dr. Oded Netzer. Currently, I am utilizing factor analysis and AI to refine a survey that measures the skills of business leaders.</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="Jan 2025-Present"
+                iconStyle={{background: '#e9d35b', color: "#fff"}}
+                icon={<SchoolIcon/>}>
+                    <h3 className="vertical-timeline-element-title">
+                        Teaching Assistant - Barnard College
+                    </h3>
+                    <p>Teaching Assistant for Introduction to Comutational Thinking and Data Science (COMS1016) under Dr. Tiffany Tseng. I was responsible for office hours, grading, and hosting weekly lab sections for students.</p>
             </VerticalTimelineElement>
         </VerticalTimeline>
     </div>

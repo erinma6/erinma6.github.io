@@ -26,3 +26,50 @@
     font-size: 60px;
     color:#3e497a;
 }
+
+.project-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.github-link, .youtube-link, .dev-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease-in-out;
+}
+
+.github-link:hover, .youtube-link:hover, .dev-link:hover {
+    transform: scale(1.1);
+}
+
+.github-link svg {
+    font-size: 60px;
+    color: #3e497a;
+    cursor: pointer;
+}
+
+.github-link:hover svg {
+    color: #2c3e50;
+}
+
+.youtube-link svg {
+    font-size: 60px;
+    color: #3e497a;
+    cursor: pointer;
+}
+
+.youtube-link:hover svg {
+    color: #2c3e50;
+}
+
+.dev-link svg {
+    font-size: 60px;
+    color: #3e497a;
+    cursor: pointer;
+}
+
+.dev-link:hover svg {
+    color: #2c3e50;
+}
