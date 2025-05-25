@@ -1,6 +1,6 @@
 import catpic from "../assets/2560px-A-Cat.jpg"
 import retail from "../assets/retail.png"
-import fx from "../assets/fx.jpg"
+import fx from "../assets/fx.png"
 import electricity from "../assets/electricity.png"
 import fraud from "../assets/fraud.png"
 import movies from "../assets/EDAV.png"
