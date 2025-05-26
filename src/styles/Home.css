@@ -44,16 +44,84 @@
 }
 
 .skills h1 {
-    color: #000000
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 .skills .list {
     list-style: none;
     width: 60%; 
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.list .item {
+    margin-bottom: 20px;
+}
+
+.list .item:first-child {
+    margin-top: 0;
+}
+
+.list .item h3 {
+    margin-bottom: 10px;
 }
 
 .list span {
     font-size: 20px;
+}
+
+.programming-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.programming-icons svg {
+    font-size: 40px;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    color: #000000;
+}
+
+.icon-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-wrapper:hover svg {
+    transform: scale(1.2);
+    background-color: #7BAFD4;
+    color: white !important;
+}
+
+/* Tooltip functionality */
+.icon-wrapper::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.icon-wrapper:hover::after {
+    opacity: 1;
 }
 
 .blinking_cursor {
@@ -89,6 +157,14 @@
     }
 
     .skills h2 {
+        font-size: 30px;
+    }
+
+    .programming-icons {
+        gap: 15px;
+    }
+
+    .programming-icons svg {
         font-size: 30px;
     }
 }

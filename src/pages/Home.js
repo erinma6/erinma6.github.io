@@ -2,6 +2,36 @@ import React, {useState, useEffect} from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import { 
+    SiPython, 
+    SiR, 
+    SiC, 
+    SiHtml5, 
+    SiJavascript, 
+    SiTypescript, 
+    SiCss3,
+    SiGit,
+    SiDocker,
+    SiKubernetes,
+    SiVim,
+    SiReact,
+    SiAngular,
+    SiD3Dotjs,
+    SiNodedotjs,
+    SiFastapi,
+    SiFirebase,
+    SiSqlalchemy,
+    SiPytest,
+    SiJunit5,
+    SiPostgresql,
+    SiSnowflake,
+    SiAmazon,
+    SiGooglecloud,
+    SiMacos,
+    SiLinux
+} from 'react-icons/si';
+import { DiJava } from 'react-icons/di';
+import { FaDatabase, FaChartBar, FaWindows } from 'react-icons/fa';
 import '../styles/Home.css'
 
 function Home() {
@@ -55,16 +85,139 @@ function Home() {
             <h1>Skills</h1>
             <ol className="list">
                 <li className="item">
-                    <h2>Programming Languages</h2>
-                    <span>Python, Java, R, C, SQL, HTML, JavaScript, Typescript, CSS</span>
+                    <h3>Programming Languages</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="Python">
+                            <SiPython />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Java">
+                            <DiJava />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="R">
+                            <SiR />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="C">
+                            <SiC />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="SQL">
+                            <FaDatabase />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="HTML">
+                            <SiHtml5 />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="JavaScript">
+                            <SiJavascript />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="TypeScript">
+                            <SiTypescript />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="CSS">
+                            <SiCss3 />
+                        </div>
+                    </div>
                 </li> 
                 <li className="item">
-                    <h2>Software</h2>
-                    <span>Git, React, Angular, PostgreSQL, Docker, PowerBI, Kubernetes, Snowflake Database, Firebase, Node.js</span>
+                    <h3>Development Tools & Platforms</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="Git">
+                            <SiGit />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Docker">
+                            <SiDocker />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Kubernetes">
+                            <SiKubernetes />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Vim">
+                            <SiVim />
+                        </div>
+                    </div>
                 </li>
                 <li className="item">
-                    <h2>Operating Systems</h2>
-                    <span>Windows, MacOS, Linux</span>
+                    <h3>Frontend Technologies</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="React">
+                            <SiReact />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Angular">
+                            <SiAngular />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="D3.js">
+                            <SiD3Dotjs />
+                        </div>
+                    </div>
+                </li>
+                <li className="item">
+                    <h3>Backend Technologies</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="Node.js">
+                            <SiNodedotjs />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="FastAPI">
+                            <SiFastapi />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Firebase">
+                            <SiFirebase />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="SQLAlchemy">
+                            <SiSqlalchemy />
+                        </div>
+                    </div>
+                </li>
+                <li className="item">
+                    <h3>Testing Frameworks</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="PyTest">
+                            <SiPytest />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="JUnit">
+                            <SiJunit5 />
+                        </div>
+                    </div>
+                </li>
+                <li className="item">
+                    <h3>Databases & Data Warehousing</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="PostgreSQL">
+                            <SiPostgresql />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Snowflake">
+                            <SiSnowflake />
+                        </div>
+                    </div>
+                </li>
+                <li className="item">
+                    <h3>Cloud Platforms</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="AWS">
+                            <SiAmazon />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Google Cloud">
+                            <SiGooglecloud />
+                        </div>
+                    </div>
+                </li>
+                <li className="item">
+                    <h3>Data Analytics & BI</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="Power BI">
+                            <FaChartBar />
+                        </div>
+                    </div>
+                </li>
+                <li className="item">
+                    <h3>Operating Systems</h3>
+                    <div className="programming-icons">
+                        <div className="icon-wrapper" data-tooltip="Windows">
+                            <FaWindows />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="macOS">
+                            <SiMacos />
+                        </div>
+                        <div className="icon-wrapper" data-tooltip="Linux">
+                            <SiLinux />
+                        </div>
+                    </div>
                 </li>
             </ol>
             
