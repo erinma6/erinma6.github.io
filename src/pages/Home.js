@@ -66,7 +66,7 @@ function Home() {
     return (
     <div className="home">
         <div className="about"> 
-            <h2> Hello! I'm Erin</h2>
+            <h2> Hello! I'm Erin Ma</h2>
             <div className="prompt">
                 <p>I am a {text} <span className="blinking-cursor">|</span> </p>
                 <a href="https://www.linkedin.com/in/erinma6/" target="_blank" rel="noopener noreferrer">

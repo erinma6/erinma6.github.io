@@ -9,11 +9,17 @@ function Footer() {
     return (
     <div className="footer">
         <div className="socialMedia">
-            <LinkedInIcon/> 
-            <EmailIcon/>
-            <GitHubIcon/>
+            <a href="https://www.linkedin.com/in/erinma6/" target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon/>
+            </a>
+            <a href="mailto:erin.ma@columbia.edu">
+                <EmailIcon/>
+            </a>
+            <a href="https://github.com/erinma6" target="_blank" rel="noopener noreferrer">
+                <GitHubIcon/>
+            </a>
         </div>
-        <p>&copy; 2025 https://erinma6.github.io/my-website/</p>
+        <p>&copy; 2025 https://erinma6.github.io</p>
     </div>
 
     );
